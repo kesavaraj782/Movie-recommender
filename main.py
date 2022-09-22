@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import difflib
 from sklearn.feature_extraction.text import TfidfVectorizer
+import streamlit
 #TfidfVectorizer  textured data -----> numerical value
 from sklearn.metrics.pairwise import cosine_similarity
 #cosine_similarity -------> for finding similarity
